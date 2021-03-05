@@ -5,6 +5,7 @@ set(groot,'DefaultAxesFontSize',30,'DefaultTextFontSize',30,...
     'DefaultFigureColor','w')
 
 %% Start Plot
+load('StreamFunction_b30_s1000_p0.mat');
 vmin = min(min(streamfunction));
 vmax = max(max(streamfunction));
 v1 = linspace(vmin,vmin/3,3);
